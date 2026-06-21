@@ -1,8 +1,8 @@
-# SimpleCore
+# PySimpleCore
 
 Легковесная утилитарная библиотека для Python-разработчиков.
 
 ## Установка
 
 ```bash
-pip install simplecore
+pip install pysimplecore
