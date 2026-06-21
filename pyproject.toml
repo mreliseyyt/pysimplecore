@@ -1,17 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "simplecore"
+name = "pysimplecore"
 version = "0.0.1"
 description = "Легковесная утилитарная библиотека для Python"
 readme = "README.md"
-authors = [{name = "mreliseyyt", email = "mail@mreliseyyt.ru"}]
+authors = [
+    {name = "mreliseyyt", email = "mail@mreliseyyt.ru"}
+]
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
 ]
 requires-python = ">=3.6"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/mreliseyyt/simplecore"
+Homepage = "https://github.com/mreliseyyt/pysimplecore"
